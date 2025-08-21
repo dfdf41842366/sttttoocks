@@ -1,0 +1,8 @@
+{
+  "market_provider": "yahoo",
+  "tickers": ["PLUG", "NVAX", "ASTS", "GH", "MARA"],
+  "fundamental_provider": "fmp",
+  "fmp_api_key": "SET_YOURS",
+  "news_provider": "newsapi",
+  "newsapi_key": "SET_YOURS"
+}

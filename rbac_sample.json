@@ -1,0 +1,21 @@
+{
+  "roles": [
+    {
+      "roleName": "admin",
+      "permissions": ["ingestion", "train", "infer", "pipeline", "monitor", "deploy"]
+    },
+    {
+      "roleName": "data_scientist",
+      "permissions": ["train", "infer", "pipeline", "monitor"]
+    },
+    {
+      "roleName": "analyst",
+      "permissions": ["infer", "monitor"]
+    }
+  ],
+  "users": [
+    {"username": "alice", "role": "admin"},
+    {"username": "bob", "role": "data_scientist"},
+    {"username": "claire", "role": "analyst"}
+  ]
+}
